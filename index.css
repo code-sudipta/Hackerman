@@ -26,6 +26,12 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    transition: 0.2s;
+}
+
+.bhoy{
+  padding-left: 10px;
+    transition: 0.5s;
 }
 
 .btn{
