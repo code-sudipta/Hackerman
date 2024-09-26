@@ -54,6 +54,7 @@ function goFullScreen() {
       docEl.msRequestFullscreen();
     }
     document.getElementById('btn').style.display = 'none'
+    document.getElementsByClassName('container')[0].style.backgroundImage = "url('https://thumbs.dreamstime.com/b/anonymous-hacker-green-color-hoodie-shadow-under-deep-black-green-background-dangerous-criminal-concept-image-hacker-268424877.jpg')"
     start()
   }
 
@@ -62,7 +63,7 @@ function goFullScreen() {
 //     goFullScreen();
 //   };
 
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault(); // Prevents the default right-click menu from appearing
-    // alert('Right-click is disabled on this page!'); // Optional: Show a message
-  });
+// document.addEventListener('contextmenu', function(e) {
+//     e.preventDefault(); // Prevents the default right-click menu from appearing
+//     // alert('Right-click is disabled on this page!'); // Optional: Show a message
+//   });
